@@ -61,104 +61,74 @@
 <body>
 <header>
   <h1>Status E-DO</h1>
-  <div class="sub">Cek status permintaan E-DO Anda berdasarkan No BL</div>
-  <div class="demo">Data contoh</div>
+  <div class="sub">Status permintaan E-DO hari ini berdasarkan No BL</div>
 </header>
 <main>
   <form class="search" onsubmit="return cari(event)">
-    <input type="hidden" name="demo" value="1">
     <input name="bl" value="" placeholder="Masukkan No BL, mis. SNKO0202609..." aria-label="No BL" autocomplete="off">
     <button>Cek</button>
   </form>
   <div id="hasil"></div>
-
-  
-
-  <div class="summary">
-    <div class="sum Diterima"><b>2</b>Diterima</div><div class="sum Diproses"><b>2</b>Diproses</div><div class="sum Selesai"><b>2</b>Selesai</div>
-  </div>
-
-  <div class="board">
-    
-    <section class="col">
-      <h2><span class="pill Diterima"></span><span class="Diterima">Diterima</span></h2>
-      <ul>
-        
-        <li class=""><span class="no">SNKO010260800202</span><span class="t">16:54</span></li>
-        
-        <li class=""><span class="no">SNKO020260900101</span><span class="t">17:03</span></li>
-        
-      </ul>
-    </section>
-    
-    <section class="col">
-      <h2><span class="pill Diproses"></span><span class="Diproses">Diproses</span></h2>
-      <ul>
-        
-        <li class=""><span class="no">SNKO190260900404</span><span class="t">16:41</span></li>
-        
-        <li class=""><span class="no">SNKO020260900303</span><span class="t">17:05</span></li>
-        
-      </ul>
-    </section>
-    
-    <section class="col">
-      <h2><span class="pill Selesai"></span><span class="Selesai">Selesai</span></h2>
-      <ul>
-        
-        <li class=""><span class="no">SNKO020260800606</span><span class="t">15:31</span></li>
-        
-        <li class=""><span class="no">SNKO010260700505</span><span class="t">16:26</span></li>
-        
-      </ul>
-    </section>
-    
-  </div>
-  <footer>Contoh tampilan dengan data contoh; tidak terhubung ke sistem<br>Selesai ditampilkan 3 hari terakhir.</footer>
+  <div class="summary" id="ringkasan"></div>
+  <div class="board" id="papan"></div>
+  <footer id="kaki">Memuat data...</footer>
 </main>
 
 <script>
-  // Pencarian No BL di dalam file ini sendiri (tanpa server)
+  // Data dibaca dari data.json (dikirim berkala dari sistem E-DO). Hanya permintaan hari ini yang ditampilkan.
   const TAHAP = ['Diterima', 'Diproses', 'Selesai'];
-  function daftar() {
-    return [...document.querySelectorAll('.board .col')].flatMap(col => {
-      const tahap = col.querySelector('h2').textContent.trim();
-      return [...col.querySelectorAll('li:not(.empty)')].map(li => ({ li, tahap, bl: li.querySelector('.no').textContent.trim(),
-                                                                        waktu: li.querySelector('.t').textContent.trim() }));
+  let items = [];
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const hariIni = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Jakarta' }).format(new Date());
+
+  function gambar() {
+    const ringkasan = document.getElementById('ringkasan'), papan = document.getElementById('papan');
+    ringkasan.replaceChildren(); papan.replaceChildren();
+    TAHAP.forEach(t => {
+      const milik = items.filter(i => i.tahap === t);
+      const sum = el('div', 'sum ' + t); sum.append(el('b', '', milik.length), t); ringkasan.append(sum);
+      const col = el('section', 'col'), h2 = el('h2'), ul = el('ul');
+      h2.append(el('span', 'pill ' + t), el('span', t, t));
+      if (!milik.length) ul.append(el('li', 'empty', 'Belum ada'));
+      milik.forEach(i => { const li = el('li'); li.dataset.bl = i.bl; li.append(el('span', 'no', i.bl), el('span', 't', i.jam)); ul.append(li); });
+      col.append(h2, ul); papan.append(col);
     });
+    tampil(document.querySelector('form.search input').value.trim().toUpperCase());
   }
   function tampil(q) {
     const hasil = document.getElementById('hasil');
-    const semua = daftar();
-    semua.forEach(i => i.li.classList.remove('hit'));
-    if (!q) { hasil.innerHTML = ''; return; }
-    const cocok = semua.filter(i => i.bl.includes(q));
+    document.querySelectorAll('#papan li').forEach(li => li.classList.toggle('hit', !!q && (li.dataset.bl || '').includes(q)));
+    hasil.replaceChildren();
+    if (!q) return;
+    const cocok = items.filter(i => i.bl.includes(q));
     if (!cocok.length) {
-      hasil.innerHTML = '<p class="notfound">No BL <b></b> tidak ditemukan. Pastikan nomor benar, atau permintaan mungkin belum kami terima.</p>';
-      hasil.querySelector('b').textContent = q;
-      return;
+      const p = el('p', 'notfound');
+      p.append('No BL ', el('b', '', q), ' tidak ada pada daftar hari ini. Pastikan nomor benar, atau permintaan mungkin belum kami terima.');
+      hasil.append(p); return;
     }
-    hasil.innerHTML = '';
     cocok.forEach(i => {
-      i.li.classList.add('hit');
-      const idx = TAHAP.indexOf(i.tahap);
-      const kartu = document.createElement('section');
-      kartu.className = 'result';
-      kartu.innerHTML = '<div class="bl"></div><div class="sub"></div><div class="steps">' + TAHAP.map((t, n) =>
-        `<div class="step ${n <= idx ? 'on' : ''}"><div class="dot">${n < idx || (idx === 2 && n === 2) ? '✓' : n + 1}</div>${t}</div>`).join('') + '</div>';
-      kartu.querySelector('.bl').textContent = i.bl;
-      kartu.querySelector('.sub').textContent = 'Update terakhir: ' + i.waktu;
-      hasil.appendChild(kartu);
+      const idx = TAHAP.indexOf(i.tahap), kartu = el('section', 'result'), steps = el('div', 'steps');
+      TAHAP.forEach((t, n) => { const s = el('div', 'step' + (n <= idx ? ' on' : ''));
+        s.append(el('div', 'dot', n < idx || (idx === 2 && n === 2) ? '✓' : n + 1), t); steps.append(s); });
+      kartu.append(el('div', 'bl', i.bl), el('div', 'sub', 'Update terakhir: ' + i.jam), steps);
+      hasil.append(kartu);
     });
   }
-  function cari(e) {
-    e.preventDefault();
-    tampil(document.querySelector('form.search input[name="bl"]').value.trim().toUpperCase());
-    return false;
+  function cari(e) { e.preventDefault(); tampil(document.querySelector('form.search input').value.trim().toUpperCase()); return false; }
+  async function muat() {
+    const kaki = document.getElementById('kaki');
+    try {
+      const d = await (await fetch('data.json?t=' + Date.now(), { cache: 'no-store' })).json();
+      const baru = d.tanggal === hariIni();          // data kemarin tidak ditampilkan
+      items = baru ? d.items : [];
+      kaki.textContent = baru ? 'Data hari ini, diperbarui terakhir pukul ' + d.diperbarui + ' WIB. Halaman memuat ulang sendiri setiap menit.'
+                              : 'Belum ada pembaruan untuk hari ini.';
+    } catch (err) { items = []; kaki.textContent = 'Data belum dapat dimuat. Coba lagi beberapa saat.'; }
+    gambar();
   }
-  // dukung tautan langsung: berkas.html?bl=SNKO...
   const awal = new URLSearchParams(location.search).get('bl');
-  if (awal) { document.querySelector('form.search input[name="bl"]').value = awal.toUpperCase(); tampil(awal.trim().toUpperCase()); }
+  if (awal) document.querySelector('form.search input').value = awal.trim().toUpperCase();
+  muat(); setInterval(muat, 60000);
 </script>
 </body>
 </html>
