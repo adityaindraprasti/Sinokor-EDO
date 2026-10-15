@@ -1,7 +1,12 @@
 {
  "tanggal": "2026-10-15",
- "diperbarui": "10:25",
+ "diperbarui": "10:30",
  "items": [
+  {
+   "bl": "SNKO190260903349",
+   "tahap": "Diterima",
+   "jam": "10:30"
+  },
   {
    "bl": "SNKO061260900276",
    "tahap": "Selesai",
@@ -71,6 +76,11 @@
    "bl": "SNKO101260900436",
    "tahap": "Selesai",
    "jam": "10:15"
+  },
+  {
+   "bl": "SNKO190260903448",
+   "tahap": "Selesai",
+   "jam": "10:29"
   }
  ]
 }
