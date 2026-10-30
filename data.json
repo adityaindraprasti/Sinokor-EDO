@@ -1,66 +1,66 @@
 {
  "tanggal": "2026-10-30",
- "diperbarui": "15:47",
+ "diperbarui": "16:02",
  "items": [
   {
-   "bl": "SNKO020261006519",
-   "tahap": "Diproses",
-   "jam": "15:36"
+   "bl": "SNKO061261000124",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
-   "bl": "SNKO010260903769",
-   "tahap": "Diproses",
-   "jam": "15:37"
+   "bl": "SNKO010261002538",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
-   "bl": "SNKO020261006225",
-   "tahap": "Diproses",
-   "jam": "15:38"
+   "bl": "SNKO020261010518",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
-   "bl": "SNKO020261005888",
-   "tahap": "Diproses",
-   "jam": "15:39"
+   "bl": "SNKO020261002684",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
-   "bl": "SNKO020261004439",
-   "tahap": "Diproses",
-   "jam": "15:40"
+   "bl": "SNKO010260909885",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
-   "bl": "SNKO020260916867",
-   "tahap": "Diproses",
-   "jam": "15:40"
+   "bl": "SNKO020260930146",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
-   "bl": "SNKO020260916889",
-   "tahap": "Diproses",
-   "jam": "15:41"
+   "bl": "SNKO020261008279",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
-   "bl": "SNKO020261005625",
-   "tahap": "Diproses",
-   "jam": "15:42"
+   "bl": "SNKO020260928230",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
-   "bl": "SNKO020261007575",
-   "tahap": "Diproses",
-   "jam": "15:46"
+   "bl": "SNKO020261004831",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
-   "bl": "SNKO010260908727",
-   "tahap": "Diproses",
-   "jam": "15:46"
+   "bl": "SNKO011261001211",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
-   "bl": "SNKO020261001139",
-   "tahap": "Diproses",
-   "jam": "15:47"
+   "bl": "SNKO020261005225",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
-   "bl": "SNKO020261001429",
-   "tahap": "Diproses",
-   "jam": "15:47"
+   "bl": "SNKO020260922937",
+   "tahap": "Diterima",
+   "jam": "16:00"
   },
   {
    "bl": "SNKO190260903459",
@@ -481,6 +481,66 @@
    "bl": "SNKO020261005834",
    "tahap": "Selesai",
    "jam": "15:43"
+  },
+  {
+   "bl": "SNKO010260908727",
+   "tahap": "Selesai",
+   "jam": "15:58"
+  },
+  {
+   "bl": "SNKO020261001139",
+   "tahap": "Selesai",
+   "jam": "15:58"
+  },
+  {
+   "bl": "SNKO020261001429",
+   "tahap": "Selesai",
+   "jam": "15:58"
+  },
+  {
+   "bl": "SNKO020261007575",
+   "tahap": "Selesai",
+   "jam": "15:58"
+  },
+  {
+   "bl": "SNKO010260903769",
+   "tahap": "Selesai",
+   "jam": "16:00"
+  },
+  {
+   "bl": "SNKO020261006519",
+   "tahap": "Selesai",
+   "jam": "16:00"
+  },
+  {
+   "bl": "SNKO020261006225",
+   "tahap": "Selesai",
+   "jam": "16:00"
+  },
+  {
+   "bl": "SNKO020260916867",
+   "tahap": "Selesai",
+   "jam": "16:00"
+  },
+  {
+   "bl": "SNKO020260916889",
+   "tahap": "Selesai",
+   "jam": "16:00"
+  },
+  {
+   "bl": "SNKO020261005888",
+   "tahap": "Selesai",
+   "jam": "16:00"
+  },
+  {
+   "bl": "SNKO020261004439",
+   "tahap": "Selesai",
+   "jam": "16:00"
+  },
+  {
+   "bl": "SNKO020261005625",
+   "tahap": "Selesai",
+   "jam": "16:00"
   }
  ]
 }
