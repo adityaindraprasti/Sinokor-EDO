@@ -1,6 +1,6 @@
 {
  "tanggal": "2026-11-02",
- "diperbarui": "10:11",
+ "diperbarui": "10:16",
  "items": [
   {
    "bl": "SNKO101261001197",
@@ -21,6 +21,11 @@
    "bl": "SNKO020261017231",
    "tahap": "Diproses",
    "jam": "10:11"
+  },
+  {
+   "bl": "SNKO020261013969",
+   "tahap": "Diproses",
+   "jam": "10:16"
   },
   {
    "bl": "SNKO010260911953",
