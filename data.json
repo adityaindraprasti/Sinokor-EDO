@@ -1,27 +1,7 @@
 {
  "tanggal": "2026-11-02",
- "diperbarui": "14:51",
+ "diperbarui": "14:56",
  "items": [
-  {
-   "bl": "SNKO010261002782",
-   "tahap": "Diproses",
-   "jam": "12:17"
-  },
-  {
-   "bl": "SNKO010261002843",
-   "tahap": "Diproses",
-   "jam": "13:05"
-  },
-  {
-   "bl": "SNKO010260911947",
-   "tahap": "Diproses",
-   "jam": "13:17"
-  },
-  {
-   "bl": "SNKO010260910020",
-   "tahap": "Diproses",
-   "jam": "13:30"
-  },
   {
    "bl": "SNKO020261006950",
    "tahap": "Diproses",
@@ -43,21 +23,6 @@
    "jam": "14:39"
   },
   {
-   "bl": "SNKO020261014320",
-   "tahap": "Diproses",
-   "jam": "14:44"
-  },
-  {
-   "bl": "SNKO190260900984",
-   "tahap": "Diproses",
-   "jam": "14:45"
-  },
-  {
-   "bl": "SNKO190261001722",
-   "tahap": "Diproses",
-   "jam": "14:46"
-  },
-  {
    "bl": "SNKO010260807701",
    "tahap": "Diproses",
    "jam": "14:46"
@@ -66,16 +31,6 @@
    "bl": "SNKO020261009049",
    "tahap": "Diproses",
    "jam": "14:46"
-  },
-  {
-   "bl": "SNKO020261010175",
-   "tahap": "Diproses",
-   "jam": "14:46"
-  },
-  {
-   "bl": "SNKO020260921233",
-   "tahap": "Diproses",
-   "jam": "14:47"
   },
   {
    "bl": "SNKO010260911953",
@@ -621,6 +576,51 @@
    "bl": "SNKO020261007526",
    "tahap": "Selesai",
    "jam": "14:42"
+  },
+  {
+   "bl": "SNKO020260921233",
+   "tahap": "Selesai",
+   "jam": "14:51"
+  },
+  {
+   "bl": "SNKO190260900984",
+   "tahap": "Selesai",
+   "jam": "14:51"
+  },
+  {
+   "bl": "SNKO190261001722",
+   "tahap": "Selesai",
+   "jam": "14:51"
+  },
+  {
+   "bl": "SNKO020261010175",
+   "tahap": "Selesai",
+   "jam": "14:51"
+  },
+  {
+   "bl": "SNKO020261014320",
+   "tahap": "Selesai",
+   "jam": "14:51"
+  },
+  {
+   "bl": "SNKO010260910020",
+   "tahap": "Selesai",
+   "jam": "14:53"
+  },
+  {
+   "bl": "SNKO010260911947",
+   "tahap": "Selesai",
+   "jam": "14:54"
+  },
+  {
+   "bl": "SNKO010261002782",
+   "tahap": "Selesai",
+   "jam": "14:54"
+  },
+  {
+   "bl": "SNKO010261002843",
+   "tahap": "Selesai",
+   "jam": "14:55"
   }
  ]
 }
