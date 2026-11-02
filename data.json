@@ -1,6 +1,6 @@
 {
  "tanggal": "2026-11-02",
- "diperbarui": "15:36",
+ "diperbarui": "15:41",
  "items": [
   {
    "bl": "SNKO020261006950",
@@ -33,54 +33,54 @@
    "jam": "15:29"
   },
   {
-   "bl": "SNKO190260904056",
-   "tahap": "Diproses",
-   "jam": "15:30"
-  },
-  {
-   "bl": "SNKO101261000079",
-   "tahap": "Diproses",
-   "jam": "15:30"
-  },
-  {
-   "bl": "SNKO190260904057",
-   "tahap": "Diproses",
-   "jam": "15:30"
-  },
-  {
-   "bl": "SNKO020261009289",
-   "tahap": "Diproses",
-   "jam": "15:31"
-  },
-  {
-   "bl": "SNKO101261001827",
-   "tahap": "Diproses",
-   "jam": "15:31"
-  },
-  {
-   "bl": "SNKO020260933378",
-   "tahap": "Diproses",
-   "jam": "15:32"
-  },
-  {
-   "bl": "SNKO020260920451",
-   "tahap": "Diproses",
-   "jam": "15:33"
-  },
-  {
    "bl": "SNKO101260901001",
    "tahap": "Diproses",
-   "jam": "15:34"
+   "jam": "15:38"
   },
   {
    "bl": "SNKO101261002606",
    "tahap": "Diproses",
-   "jam": "15:35"
+   "jam": "15:38"
+  },
+  {
+   "bl": "SNKO101261001827",
+   "tahap": "Diproses",
+   "jam": "15:38"
+  },
+  {
+   "bl": "SNKO020260933378",
+   "tahap": "Diproses",
+   "jam": "15:38"
+  },
+  {
+   "bl": "SNKO020261009289",
+   "tahap": "Diproses",
+   "jam": "15:38"
   },
   {
    "bl": "SNKO190261001174",
    "tahap": "Diproses",
-   "jam": "15:35"
+   "jam": "15:38"
+  },
+  {
+   "bl": "SNKO190260904056",
+   "tahap": "Diproses",
+   "jam": "15:38"
+  },
+  {
+   "bl": "SNKO101261000079",
+   "tahap": "Diproses",
+   "jam": "15:38"
+  },
+  {
+   "bl": "SNKO020260920451",
+   "tahap": "Diproses",
+   "jam": "15:38"
+  },
+  {
+   "bl": "SNKO190260904057",
+   "tahap": "Diproses",
+   "jam": "15:38"
   },
   {
    "bl": "SNKO010260911953",
@@ -676,6 +676,21 @@
    "bl": "SNKO020261014006",
    "tahap": "Selesai",
    "jam": "15:31"
+  },
+  {
+   "bl": "SNKO020261003434",
+   "tahap": "Selesai",
+   "jam": "15:40"
+  },
+  {
+   "bl": "SNKO101261001337",
+   "tahap": "Selesai",
+   "jam": "15:40"
+  },
+  {
+   "bl": "SNKO020260931502",
+   "tahap": "Selesai",
+   "jam": "15:40"
   }
  ]
 }
