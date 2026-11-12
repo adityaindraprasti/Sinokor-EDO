@@ -1,16 +1,11 @@
 {
  "tanggal": "2026-11-12",
- "diperbarui": "16:52",
+ "diperbarui": "16:57",
  "items": [
-  {
-   "bl": "SNKO010260903121",
-   "tahap": "Diterima",
-   "jam": "16:46"
-  },
   {
    "bl": "SNKO010260910666",
    "tahap": "Diterima",
-   "jam": "16:46"
+   "jam": "16:56"
   },
   {
    "bl": "SNKO010261005208",
@@ -33,39 +28,49 @@
    "jam": "14:35"
   },
   {
-   "bl": "SNKO011261001131",
+   "bl": "SNKO010261005507",
    "tahap": "Diproses",
-   "jam": "16:46"
+   "jam": "16:55"
   },
   {
-   "bl": "SNKO011260901029",
+   "bl": "SNKO010261001531",
    "tahap": "Diproses",
-   "jam": "16:46"
+   "jam": "16:55"
+  },
+  {
+   "bl": "SNKO020261017234",
+   "tahap": "Diproses",
+   "jam": "16:56"
+  },
+  {
+   "bl": "SNKO020261013282",
+   "tahap": "Diproses",
+   "jam": "16:56"
   },
   {
    "bl": "SNKO011260901028",
    "tahap": "Diproses",
-   "jam": "16:46"
+   "jam": "16:56"
+  },
+  {
+   "bl": "SNKO010260912358",
+   "tahap": "Diproses",
+   "jam": "16:56"
   },
   {
    "bl": "SNKO010261000376",
    "tahap": "Diproses",
-   "jam": "16:47"
+   "jam": "16:56"
   },
   {
-   "bl": "SNKO010260906416",
+   "bl": "SNKO010261006779",
    "tahap": "Diproses",
-   "jam": "16:48"
+   "jam": "16:56"
   },
   {
-   "bl": "SNKO014261000126",
+   "bl": "SNKO020261007898",
    "tahap": "Diproses",
-   "jam": "16:49"
-  },
-  {
-   "bl": "SNKO020260930167",
-   "tahap": "Diproses",
-   "jam": "16:49"
+   "jam": "16:57"
   },
   {
    "bl": "SNKO101260902936",
@@ -1046,6 +1051,36 @@
    "bl": "SNKO010260909824",
    "tahap": "Selesai",
    "jam": "16:48"
+  },
+  {
+   "bl": "SNKO010260906416",
+   "tahap": "Selesai",
+   "jam": "16:53"
+  },
+  {
+   "bl": "SNKO014261000126",
+   "tahap": "Selesai",
+   "jam": "16:53"
+  },
+  {
+   "bl": "SNKO020260930167",
+   "tahap": "Selesai",
+   "jam": "16:53"
+  },
+  {
+   "bl": "SNKO011261001131",
+   "tahap": "Selesai",
+   "jam": "16:53"
+  },
+  {
+   "bl": "SNKO011260901029",
+   "tahap": "Selesai",
+   "jam": "16:54"
+  },
+  {
+   "bl": "SNKO010260903121",
+   "tahap": "Selesai",
+   "jam": "16:54"
   }
  ]
 }
