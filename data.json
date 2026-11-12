@@ -1,32 +1,7 @@
 {
  "tanggal": "2026-11-12",
- "diperbarui": "14:51",
+ "diperbarui": "14:56",
  "items": [
-  {
-   "bl": "SNKO020260935098",
-   "tahap": "Diterima",
-   "jam": "14:44"
-  },
-  {
-   "bl": "SNKO020261011091",
-   "tahap": "Diterima",
-   "jam": "14:44"
-  },
-  {
-   "bl": "SNKO020260915516",
-   "tahap": "Diterima",
-   "jam": "14:44"
-  },
-  {
-   "bl": "SNKO020261021206",
-   "tahap": "Diterima",
-   "jam": "14:44"
-  },
-  {
-   "bl": "SNKO020261018335",
-   "tahap": "Diterima",
-   "jam": "14:44"
-  },
   {
    "bl": "SNKO010260909824",
    "tahap": "Diproses",
@@ -86,6 +61,31 @@
    "bl": "SNKO011261001543",
    "tahap": "Diproses",
    "jam": "14:49"
+  },
+  {
+   "bl": "SNKO020261011091",
+   "tahap": "Diproses",
+   "jam": "14:53"
+  },
+  {
+   "bl": "SNKO020260935098",
+   "tahap": "Diproses",
+   "jam": "14:54"
+  },
+  {
+   "bl": "SNKO020261021206",
+   "tahap": "Diproses",
+   "jam": "14:54"
+  },
+  {
+   "bl": "SNKO020260915516",
+   "tahap": "Diproses",
+   "jam": "14:54"
+  },
+  {
+   "bl": "SNKO020261018335",
+   "tahap": "Diproses",
+   "jam": "14:55"
   },
   {
    "bl": "SNKO101260902936",
