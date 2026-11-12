@@ -1,6 +1,6 @@
 {
  "tanggal": "2026-11-12",
- "diperbarui": "15:21",
+ "diperbarui": "15:26",
  "items": [
   {
    "bl": "SNKO020261014516",
@@ -63,56 +63,6 @@
    "jam": "15:19"
   },
   {
-   "bl": "SNKO020260915404",
-   "tahap": "Diproses",
-   "jam": "15:19"
-  },
-  {
-   "bl": "SNKO020261014230",
-   "tahap": "Diproses",
-   "jam": "15:19"
-  },
-  {
-   "bl": "SNKO020261015880",
-   "tahap": "Diproses",
-   "jam": "15:19"
-  },
-  {
-   "bl": "SNKO010260909898",
-   "tahap": "Diproses",
-   "jam": "15:19"
-  },
-  {
-   "bl": "SNKO010261007119",
-   "tahap": "Diproses",
-   "jam": "15:19"
-  },
-  {
-   "bl": "SNKO020260929686",
-   "tahap": "Diproses",
-   "jam": "15:20"
-  },
-  {
-   "bl": "SNKO020260933798",
-   "tahap": "Diproses",
-   "jam": "15:20"
-  },
-  {
-   "bl": "SNKO020261007033",
-   "tahap": "Diproses",
-   "jam": "15:20"
-  },
-  {
-   "bl": "SNKO010261004271",
-   "tahap": "Diproses",
-   "jam": "15:20"
-  },
-  {
-   "bl": "SNKO010261005341",
-   "tahap": "Diproses",
-   "jam": "15:20"
-  },
-  {
    "bl": "SNKO020261015881",
    "tahap": "Diproses",
    "jam": "15:20"
@@ -171,6 +121,56 @@
    "bl": "SNKO020261013991",
    "tahap": "Diproses",
    "jam": "15:21"
+  },
+  {
+   "bl": "SNKO020260915404",
+   "tahap": "Diproses",
+   "jam": "15:22"
+  },
+  {
+   "bl": "SNKO020261014230",
+   "tahap": "Diproses",
+   "jam": "15:22"
+  },
+  {
+   "bl": "SNKO020261015880",
+   "tahap": "Diproses",
+   "jam": "15:23"
+  },
+  {
+   "bl": "SNKO010260909898",
+   "tahap": "Diproses",
+   "jam": "15:23"
+  },
+  {
+   "bl": "SNKO010261007119",
+   "tahap": "Diproses",
+   "jam": "15:24"
+  },
+  {
+   "bl": "SNKO020260929686",
+   "tahap": "Diproses",
+   "jam": "15:24"
+  },
+  {
+   "bl": "SNKO020260933798",
+   "tahap": "Diproses",
+   "jam": "15:25"
+  },
+  {
+   "bl": "SNKO020261007033",
+   "tahap": "Diproses",
+   "jam": "15:25"
+  },
+  {
+   "bl": "SNKO010261004271",
+   "tahap": "Diproses",
+   "jam": "15:26"
+  },
+  {
+   "bl": "SNKO010261005341",
+   "tahap": "Diproses",
+   "jam": "15:26"
   },
   {
    "bl": "SNKO101260902936",
