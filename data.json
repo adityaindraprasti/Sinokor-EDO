@@ -1,6 +1,6 @@
 {
  "tanggal": "2026-11-23",
- "diperbarui": "14:48",
+ "diperbarui": "14:53",
  "items": [
   {
    "bl": "SNKO011260902240",
@@ -36,56 +36,6 @@
    "bl": "SNKO020261009673",
    "tahap": "Diproses",
    "jam": "14:41"
-  },
-  {
-   "bl": "SNKO010261009596",
-   "tahap": "Diproses",
-   "jam": "14:44"
-  },
-  {
-   "bl": "SNKO101261001220",
-   "tahap": "Diproses",
-   "jam": "14:44"
-  },
-  {
-   "bl": "SNKO020261022712",
-   "tahap": "Diproses",
-   "jam": "14:45"
-  },
-  {
-   "bl": "SNKO190261002861",
-   "tahap": "Diproses",
-   "jam": "14:45"
-  },
-  {
-   "bl": "SNKO011261100462",
-   "tahap": "Diproses",
-   "jam": "14:46"
-  },
-  {
-   "bl": "SNKO101261002366",
-   "tahap": "Diproses",
-   "jam": "14:46"
-  },
-  {
-   "bl": "SNKO020261022396",
-   "tahap": "Diproses",
-   "jam": "14:47"
-  },
-  {
-   "bl": "SNKO101261001627",
-   "tahap": "Diproses",
-   "jam": "14:47"
-  },
-  {
-   "bl": "SNKO020261004984",
-   "tahap": "Diproses",
-   "jam": "14:48"
-  },
-  {
-   "bl": "SNKO101260902499",
-   "tahap": "Diproses",
-   "jam": "14:48"
   },
   {
    "bl": "SNKO010260905726",
@@ -786,6 +736,56 @@
    "bl": "SNKO010260910743",
    "tahap": "Selesai",
    "jam": "14:45"
+  },
+  {
+   "bl": "SNKO011261100462",
+   "tahap": "Selesai",
+   "jam": "14:49"
+  },
+  {
+   "bl": "SNKO020261022712",
+   "tahap": "Selesai",
+   "jam": "14:49"
+  },
+  {
+   "bl": "SNKO101261002366",
+   "tahap": "Selesai",
+   "jam": "14:49"
+  },
+  {
+   "bl": "SNKO020261022396",
+   "tahap": "Selesai",
+   "jam": "14:49"
+  },
+  {
+   "bl": "SNKO190261002861",
+   "tahap": "Selesai",
+   "jam": "14:49"
+  },
+  {
+   "bl": "SNKO101261001627",
+   "tahap": "Selesai",
+   "jam": "14:49"
+  },
+  {
+   "bl": "SNKO010261009596",
+   "tahap": "Selesai",
+   "jam": "14:49"
+  },
+  {
+   "bl": "SNKO020261004984",
+   "tahap": "Selesai",
+   "jam": "14:49"
+  },
+  {
+   "bl": "SNKO101261001220",
+   "tahap": "Selesai",
+   "jam": "14:49"
+  },
+  {
+   "bl": "SNKO101260902499",
+   "tahap": "Selesai",
+   "jam": "14:49"
   }
  ]
 }
