@@ -1,6 +1,6 @@
 {
  "tanggal": "2026-11-24",
- "diperbarui": "13:55",
+ "diperbarui": "14:00",
  "items": [
   {
    "bl": "SNKO020261022161",
@@ -33,59 +33,79 @@
    "jam": "11:41"
   },
   {
-   "bl": "SNKO011261002653",
-   "tahap": "Diproses",
-   "jam": "13:43"
-  },
-  {
-   "bl": "SNKO020261026433",
-   "tahap": "Diproses",
-   "jam": "13:43"
-  },
-  {
-   "bl": "SNKO020261109742",
-   "tahap": "Diproses",
-   "jam": "13:43"
-  },
-  {
-   "bl": "SNKO020261106829",
-   "tahap": "Diproses",
-   "jam": "13:43"
-  },
-  {
-   "bl": "SNKO011260801475",
-   "tahap": "Diproses",
-   "jam": "13:50"
-  },
-  {
    "bl": "SNKO190261002474",
    "tahap": "Diproses",
    "jam": "13:50"
   },
   {
-   "bl": "SNKO020261100977",
+   "bl": "SNKO011260801475",
    "tahap": "Diproses",
-   "jam": "13:51"
+   "jam": "13:55"
   },
   {
-   "bl": "SNKO020261023260",
+   "bl": "SNKO020261100977",
    "tahap": "Diproses",
-   "jam": "13:52"
+   "jam": "13:57"
   },
   {
    "bl": "SNKO010260903631",
    "tahap": "Diproses",
-   "jam": "13:53"
+   "jam": "13:57"
   },
   {
    "bl": "SNKO190261002473",
    "tahap": "Diproses",
-   "jam": "13:54"
+   "jam": "13:57"
   },
   {
    "bl": "SNKO020261106270",
    "tahap": "Diproses",
-   "jam": "13:54"
+   "jam": "13:57"
+  },
+  {
+   "bl": "SNKO020261023260",
+   "tahap": "Diproses",
+   "jam": "13:57"
+  },
+  {
+   "bl": "SNKO020261026433",
+   "tahap": "Diproses",
+   "jam": "13:57"
+  },
+  {
+   "bl": "SNKO011261002653",
+   "tahap": "Diproses",
+   "jam": "13:57"
+  },
+  {
+   "bl": "SNKO020261109742",
+   "tahap": "Diproses",
+   "jam": "13:57"
+  },
+  {
+   "bl": "SNKO020261106829",
+   "tahap": "Diproses",
+   "jam": "13:57"
+  },
+  {
+   "bl": "SNKO010261007098",
+   "tahap": "Diproses",
+   "jam": "13:58"
+  },
+  {
+   "bl": "SNKO020261100986",
+   "tahap": "Diproses",
+   "jam": "13:59"
+  },
+  {
+   "bl": "SNKO190260901641",
+   "tahap": "Diproses",
+   "jam": "14:00"
+  },
+  {
+   "bl": "SNKO040261000483",
+   "tahap": "Diproses",
+   "jam": "14:00"
   },
   {
    "bl": "SNKO101261100149",
