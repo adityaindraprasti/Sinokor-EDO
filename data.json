@@ -1,7 +1,42 @@
 {
  "tanggal": "2026-11-25",
- "diperbarui": "10:44",
+ "diperbarui": "10:54",
  "items": [
+  {
+   "bl": "SNKO010260910190",
+   "tahap": "Diterima",
+   "jam": "10:51"
+  },
+  {
+   "bl": "SNKO020261100026",
+   "tahap": "Diterima",
+   "jam": "10:51"
+  },
+  {
+   "bl": "SNKO020261102686",
+   "tahap": "Diterima",
+   "jam": "10:51"
+  },
+  {
+   "bl": "SNKO010260908356",
+   "tahap": "Diterima",
+   "jam": "10:51"
+  },
+  {
+   "bl": "SNKO010261100391",
+   "tahap": "Diterima",
+   "jam": "10:51"
+  },
+  {
+   "bl": "SNKO020261100023",
+   "tahap": "Diterima",
+   "jam": "10:51"
+  },
+  {
+   "bl": "SNKO020261103111",
+   "tahap": "Diterima",
+   "jam": "10:51"
+  },
   {
    "bl": "SNKO010261007077",
    "tahap": "Diproses",
@@ -33,34 +68,34 @@
    "jam": "10:26"
   },
   {
-   "bl": "SNKO020261100135",
-   "tahap": "Diproses",
-   "jam": "10:30"
-  },
-  {
    "bl": "SNKO020261016779",
-   "tahap": "Diproses",
-   "jam": "10:39"
-  },
-  {
-   "bl": "SNKO020261016462",
-   "tahap": "Diproses",
-   "jam": "10:39"
-  },
-  {
-   "bl": "SNKO020261027046",
    "tahap": "Diproses",
    "jam": "10:39"
   },
   {
    "bl": "SNKO020261027016",
    "tahap": "Diproses",
-   "jam": "10:39"
+   "jam": "10:51"
   },
   {
    "bl": "SNKO020261027041",
    "tahap": "Diproses",
-   "jam": "10:39"
+   "jam": "10:51"
+  },
+  {
+   "bl": "SNKO020261016462",
+   "tahap": "Diproses",
+   "jam": "10:51"
+  },
+  {
+   "bl": "SNKO020261027046",
+   "tahap": "Diproses",
+   "jam": "10:51"
+  },
+  {
+   "bl": "SNKO020261100135",
+   "tahap": "Diproses",
+   "jam": "10:51"
   },
   {
    "bl": "SNKO020261015892",
@@ -246,6 +281,26 @@
    "bl": "SNKO010261008978",
    "tahap": "Selesai",
    "jam": "10:40"
+  },
+  {
+   "bl": "SNKO011261100177",
+   "tahap": "Selesai",
+   "jam": "10:53"
+  },
+  {
+   "bl": "SNKO020261105985",
+   "tahap": "Selesai",
+   "jam": "10:53"
+  },
+  {
+   "bl": "SNKO010261007538",
+   "tahap": "Selesai",
+   "jam": "10:53"
+  },
+  {
+   "bl": "SNKO020261104238",
+   "tahap": "Selesai",
+   "jam": "10:53"
   }
  ]
 }
