@@ -1,6 +1,6 @@
 {
  "tanggal": "2026-11-25",
- "diperbarui": "09:54",
+ "diperbarui": "09:59",
  "items": [
   {
    "bl": "SNKO010261007077",
@@ -13,54 +13,9 @@
    "jam": "09:52"
   },
   {
-   "bl": "SNKO010261001893",
+   "bl": "SNKO010261008734",
    "tahap": "Diproses",
-   "jam": "09:52"
-  },
-  {
-   "bl": "SNKO010261100087",
-   "tahap": "Diproses",
-   "jam": "09:52"
-  },
-  {
-   "bl": "SNKO101261002210",
-   "tahap": "Diproses",
-   "jam": "09:52"
-  },
-  {
-   "bl": "SNKO020261102245",
-   "tahap": "Diproses",
-   "jam": "09:53"
-  },
-  {
-   "bl": "SNKO020261102519",
-   "tahap": "Diproses",
-   "jam": "09:53"
-  },
-  {
-   "bl": "SNKO020261101769",
-   "tahap": "Diproses",
-   "jam": "09:53"
-  },
-  {
-   "bl": "SNKO022261001946",
-   "tahap": "Diproses",
-   "jam": "09:53"
-  },
-  {
-   "bl": "SNKO101261100469",
-   "tahap": "Diproses",
-   "jam": "09:53"
-  },
-  {
-   "bl": "SNKO101261100494",
-   "tahap": "Diproses",
-   "jam": "09:53"
-  },
-  {
-   "bl": "SNKO101261100495",
-   "tahap": "Diproses",
-   "jam": "09:53"
+   "jam": "09:57"
   },
   {
    "bl": "SNKO020261015892",
@@ -91,6 +46,56 @@
    "bl": "SNKO020261013111",
    "tahap": "Selesai",
    "jam": "09:51"
+  },
+  {
+   "bl": "SNKO101261100495",
+   "tahap": "Selesai",
+   "jam": "09:58"
+  },
+  {
+   "bl": "SNKO020261101769",
+   "tahap": "Selesai",
+   "jam": "09:58"
+  },
+  {
+   "bl": "SNKO020261102245",
+   "tahap": "Selesai",
+   "jam": "09:58"
+  },
+  {
+   "bl": "SNKO020261102519",
+   "tahap": "Selesai",
+   "jam": "09:58"
+  },
+  {
+   "bl": "SNKO010261001893",
+   "tahap": "Selesai",
+   "jam": "09:58"
+  },
+  {
+   "bl": "SNKO010261100087",
+   "tahap": "Selesai",
+   "jam": "09:58"
+  },
+  {
+   "bl": "SNKO101261002210",
+   "tahap": "Selesai",
+   "jam": "09:58"
+  },
+  {
+   "bl": "SNKO101261100469",
+   "tahap": "Selesai",
+   "jam": "09:58"
+  },
+  {
+   "bl": "SNKO101261100494",
+   "tahap": "Selesai",
+   "jam": "09:58"
+  },
+  {
+   "bl": "SNKO022261001946",
+   "tahap": "Selesai",
+   "jam": "09:58"
   }
  ]
 }
