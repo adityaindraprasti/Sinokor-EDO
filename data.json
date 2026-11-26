@@ -1,6 +1,6 @@
 {
  "tanggal": "2026-11-26",
- "diperbarui": "13:36",
+ "diperbarui": "13:41",
  "items": [
   {
    "bl": "SNKO010261102170",
@@ -18,51 +18,6 @@
    "jam": "13:30"
   },
   {
-   "bl": "SNKO010261007400",
-   "tahap": "Diproses",
-   "jam": "13:35"
-  },
-  {
-   "bl": "SNKO010261007429",
-   "tahap": "Diproses",
-   "jam": "13:35"
-  },
-  {
-   "bl": "SNKO020261017452",
-   "tahap": "Diproses",
-   "jam": "13:35"
-  },
-  {
-   "bl": "SNKO03B261000616",
-   "tahap": "Diproses",
-   "jam": "13:35"
-  },
-  {
-   "bl": "SNKO010260809950",
-   "tahap": "Diproses",
-   "jam": "13:35"
-  },
-  {
-   "bl": "SNKO020261106891",
-   "tahap": "Diproses",
-   "jam": "13:35"
-  },
-  {
-   "bl": "SNKO010261100145",
-   "tahap": "Diproses",
-   "jam": "13:35"
-  },
-  {
-   "bl": "SNKO020261106806",
-   "tahap": "Diproses",
-   "jam": "13:35"
-  },
-  {
-   "bl": "SNKO020261017617",
-   "tahap": "Diproses",
-   "jam": "13:35"
-  },
-  {
    "bl": "SNKO190261003010",
    "tahap": "Diproses",
    "jam": "13:35"
@@ -70,12 +25,57 @@
   {
    "bl": "SNKO010261007671",
    "tahap": "Diproses",
-   "jam": "13:36"
+   "jam": "13:40"
+  },
+  {
+   "bl": "SNKO020261017452",
+   "tahap": "Diproses",
+   "jam": "13:40"
+  },
+  {
+   "bl": "SNKO03B261000616",
+   "tahap": "Diproses",
+   "jam": "13:40"
+  },
+  {
+   "bl": "SNKO010260809950",
+   "tahap": "Diproses",
+   "jam": "13:40"
   },
   {
    "bl": "SNKO010261102295",
    "tahap": "Diproses",
-   "jam": "13:36"
+   "jam": "13:40"
+  },
+  {
+   "bl": "SNKO010261007400",
+   "tahap": "Diproses",
+   "jam": "13:40"
+  },
+  {
+   "bl": "SNKO010261007429",
+   "tahap": "Diproses",
+   "jam": "13:40"
+  },
+  {
+   "bl": "SNKO020261106891",
+   "tahap": "Diproses",
+   "jam": "13:40"
+  },
+  {
+   "bl": "SNKO010261100145",
+   "tahap": "Diproses",
+   "jam": "13:40"
+  },
+  {
+   "bl": "SNKO020261106806",
+   "tahap": "Diproses",
+   "jam": "13:41"
+  },
+  {
+   "bl": "SNKO020261017617",
+   "tahap": "Diproses",
+   "jam": "13:41"
   },
   {
    "bl": "SNKO020261022724",
@@ -216,6 +216,11 @@
    "bl": "SNKO020261026424",
    "tahap": "Selesai",
    "jam": "13:36"
+  },
+  {
+   "bl": "SNKO010261009013",
+   "tahap": "Selesai",
+   "jam": "13:41"
   }
  ]
 }
